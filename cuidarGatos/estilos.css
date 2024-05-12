@@ -1,0 +1,173 @@
+body {
+    font-family: monospace;
+    color: #333;
+    font-size: 2.3rem;
+}
+
+h1 {
+    /*
+    background-color: rgb(233, 205, 23);
+    color: white;
+    padding: 20px;
+    */
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 2rem;
+
+}
+
+p{
+    margin-bottom: 1.2em;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.header {
+    background: #333333;
+    color: azure;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top:0 ;
+    right: 0;
+}
+    .header a {
+        color: white;
+        text-decoration: none;
+}
+
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li {
+        display: inline-block;
+    }
+        .navigation ul li a {
+            display: block;
+            padding: 0.5rem 1rem;
+            border-radius: 15px;
+            
+        }
+
+        .navigation a:hover{
+            background-color: #ccc;
+            padding: auto;
+            transition: all 0.4s linear;
+}
+
+
+.logo {
+    letter-spacing: 5px;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.menu-ico{
+    display: block;
+}
+
+.logo:hover {
+    background-color: #ccc;
+    padding: 8px;
+    border-radius: 80px;
+    transition: all 0.5s linear;
+}
+
+.main {
+    padding-top: 8rem;
+}
+
+.imagenes-div{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 5rem;
+    padding: 0.8rem;
+    border: #333 solid 1rem;
+
+    margin-left: auto;
+    margin-right: auto; 
+}
+.imagenes-div-1{
+    height: 30rem;
+    width: 50rem;
+    border-radius: 21px;
+    border: #333 solid 1rem; 
+}
+
+.lista-img li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.footer {
+    background: #e4e3e3;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .menu-ico{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+
+    .navigation ul.show {
+        display: block;
+    }
+    .menu-ico:hover {
+        background: #ababab;
+        padding: auto;
+        border-radius: 20px;
+    }
+
+    .navigation ul li {
+            display: block;
+        }
+            .navigation ul li a {
+                display: block;
+                padding: 0.5rem 1rem;
+                border-radius: 15px;
+            }
+    
+            .navigation a:hover{
+                background-color: #ccc;
+                padding: auto;
+                transition: all 0.4s linear;
+    }
+}
+
+.menu-ico-ocultar {
+    color: #333;
+    text-align: left;
+}
+
+
+
